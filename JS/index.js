@@ -73,6 +73,7 @@ let controller = {
         for(let i = 0; i < avengers.length; i++){
             view.showName(i, avengers[i].name);
         }
+        view.showData(avengers[0]);
         view.clickListener();
         view.countListener();
     },
